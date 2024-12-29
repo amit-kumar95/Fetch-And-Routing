@@ -1,0 +1,127 @@
+.bgContainerBlogItemDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 799px) {
+  .bgContainerBlogItemDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+  }
+}
+
+.blogItemContainers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  padding: 40px;
+}
+
+@media (max-width: 799px) {
+  .blogItemContainers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+    padding: 40px;
+  }
+}
+
+.titleStl {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 600;
+}
+
+@media (max-width: 799px) {
+  .titleStl {
+    font-size: 17px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0px;
+  }
+}
+
+.authorCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  margin-left: 0px;
+}
+
+@media (max-width: 799px) {
+  .authorCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    margin-left: 0px;
+  }
+}
+
+.avatarImgStl {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+@media (max-width: 799px) {
+  .avatarImgStl {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}
+
+.authorStl {
+  padding-left: 10px;
+}
+
+@media (max-width: 799px) {
+  .authorStl {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+.imgStyling {
+  width: 100%;
+  height: 42vh;
+  border-radius: 10px;
+}
+
+@media (max-width: 799px) {
+  .imgStyling {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+  }
+}
+.context {
+  font-size: 17px;
+  color: #2f4f4f;
+  font-weight: 400;
+}
+
+@media (max-width: 799px) {
+  .context {
+    font-size: 14px;
+    color: #2f4f4f;
+    font-weight: 400;
+  }
+}
